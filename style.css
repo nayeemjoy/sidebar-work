@@ -45,7 +45,7 @@
 #left-middle-sidebar-btn{
     position: absolute;
     transform: rotate(-90deg);
-    left: -135px;
+    left: -125px;
     top: 50%;
 }
 
@@ -79,7 +79,7 @@
 #right-middle-sidebar-btn{
     position: absolute;
     transform: rotate(-90deg);
-    right: -135px;
+    right: -125px;
     top: 50%;
 }
 
