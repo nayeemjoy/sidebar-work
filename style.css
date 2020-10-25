@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.right-top-sidebar{
+    position: absolute;
+    display: none;
+    top : 50px;
+    right: 0px;
+    width: 250px;
+    transition: .5s;
+}
+
+.right-top-sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    color: black;
+    padding-right: 18px;
+    box-sizing: border-box;
+    transition: .5s;
+    text-decoration: none;
+    letter-spacing: 6px;
+    text-align: right;
+}
+.right-top-sidebar ul a:hover{
+    font-size: 22px;
+    transition: .4s;
+}
+.right-top .btn, .right-top .cancel{
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    font-size: 30px;
+    padding: 6px 12px;
+}
+.right-top .cancel{
+    display: none;
+}
+
+#left-middle-sidebar-btn{
+    position: absolute;
+    transform: rotate(-90deg);
+    left: -135px;
+    top: 50%;
+}
+
+.left-middle-sidebar{
+    position: absolute;
+    display: none;
+    top : 45%;
+    left: 0px;
+    width: 250px;
+}
+
+.left-middle-sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    color: black;
+    padding-left: 50px;
+    box-sizing: border-box;
+    transition: .5s;
+    text-decoration: none;
+    letter-spacing: 6px;
+    transition: .5s;
+}
+
+.left-middle-sidebar ul a:hover{
+    font-size: 22px;
+    transition: .4s;
+}
+
+#right-middle-sidebar-btn{
+    position: absolute;
+    transform: rotate(-90deg);
+    right: -135px;
+    top: 50%;
+}
+
+.right-middle-sidebar{
+    position: absolute;
+    display: none;
+    top : 45%;
+    right: 0px;
+    width: 250px;
+}
+
+.right-middle-sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    color: black;
+    padding-right: 50px;
+    box-sizing: border-box;
+    transition: .5s;
+    text-decoration: none;
+    letter-spacing: 6px;
+    text-align: right;
+    transition: .5s;
+}
+
+.right-middle-sidebar ul a:hover{
+    font-size: 22px;
+    transition: .4s;
+}
+
+/* 
+#check{
+    display: none;
+}
+
+#check:checked ~ .sidebar{
+    right : 0px;
+    transition: .5s;
+}
+
+#check:checked ~ label #btn{
+    opacity: 0;
+    transition: .5s;
+}
+
+#check:checked ~ label #cancel{
+    opacity: 1;
+    transition: .5s;
+}
+
+label #btn, label #cancel{
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    font-size: 30px;
+    padding: 6px 12px;
+}
+
+label #cancel{
+    opacity: 0;
+    transition: .5s;
+} */
