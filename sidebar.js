@@ -21,11 +21,17 @@ $(document).ready(function(){
         $('.left-middle-sidebar').animate({
             left : '0'
         });
+        $(this).animate({
+            left : '-125px'
+        });
     })
 
     $('.left-middle-sidebar').mouseleave(function(){
         $(this).animate({
             left : '-250px'
+        });
+        $('#left-middle-sidebar-btn').animate({
+            left : '-100px'
         });
     });
 
@@ -33,11 +39,17 @@ $(document).ready(function(){
         $('.right-middle-sidebar').animate({
             right : '0'
         });
+        $(this).animate({
+            right : '-125px'
+        });
     })
 
     $('.right-middle-sidebar').mouseleave(function(){
         $(this).animate({
             right : '-250px'
+        });
+        $('#right-middle-sidebar-btn').animate({
+            right : '-100px'
         });
     });
 });
