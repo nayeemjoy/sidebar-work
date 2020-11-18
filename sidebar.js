@@ -18,18 +18,26 @@ $(document).ready(function(){
     });
 
     $('#left-middle-sidebar-btn').hover(function(){
-        $('.left-middle-sidebar').fadeIn(500);
+        $('.left-middle-sidebar').animate({
+            left : '0'
+        });
     })
 
     $('.left-middle-sidebar').mouseleave(function(){
-        $(this).fadeOut(500);
+        $(this).animate({
+            left : '-250px'
+        });
     });
 
     $('#right-middle-sidebar-btn').hover(function(){
-        $('.right-middle-sidebar').fadeIn(500);
+        $('.right-middle-sidebar').animate({
+            right : '0'
+        });
     })
 
     $('.right-middle-sidebar').mouseleave(function(){
-        $(this).fadeOut(500);
+        $(this).animate({
+            right : '-250px'
+        });
     });
 });

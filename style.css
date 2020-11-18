@@ -51,9 +51,8 @@
 
 .left-middle-sidebar{
     position: absolute;
-    display: none;
     top : 45%;
-    left: 0px;
+    left: -250px;
     width: 250px;
 }
 
@@ -85,9 +84,8 @@
 
 .right-middle-sidebar{
     position: absolute;
-    display: none;
     top : 45%;
-    right: 0px;
+    right: -250px;
     width: 250px;
 }
 
